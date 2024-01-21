@@ -1,7 +1,12 @@
 INPUTS = {
     "savings": {
-        "ulster_bank": {"oscar": 10000, "rose": 0},
-        "hampshire_trust_bank": {"oscar": 0, "rose": 23600},
+        "new_house": 0,
+        "car": 0,
+        "current_house": 0,
+        "holiday": 0,
+        "wedding": 0,
+        "children": 0,
+        "family": 0,
     },
     "income": {
         "salary": {"oscar": 4900, "rose": 2542},
@@ -20,20 +25,22 @@ INPUTS = {
         "shopping": {"oscar": 130.68, "rose": 318.36},
         "freya": {"oscar": 71.48, "rose": 113.61},
         "cleaning": {"oscar": 81.40, "rose": 0},
-        "personal": {"oscar": 0, "rose": 0},
+    },
+    "investments": {
+        "comcast_shares": {"oscar": 250, "rose": 0},
     },
 }
 
 PARAMS = {
-    "pots": {
+    "saving_pots_shares": {
         "new_house": 0.3,
+        "car": 0.2,
         "current_house": 0.15,
         "holiday": 0.15,
         "wedding": 0.10,
-        "car": 0.10,
-        "investment": 0.10,
         "children": 0.05,
         "family": 0.05,
     },
     "split": "proportional_to_income",
+    "pocket_money": {"oscar": 500, "rose": 500},
 }
