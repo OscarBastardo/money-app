@@ -1,8 +1,8 @@
 INPUTS = {
     "savings": {
-        "new_house": 0,
-        "car": 0,
-        "current_house": 0,
+        "new_house": 6720.0,
+        "car": 15120.0,
+        "current_house": 11760.0,
         "holiday": 0,
         "wedding": 0,
         "children": 0,
