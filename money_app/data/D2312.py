@@ -1,5 +1,7 @@
+DATE = "2023-12-01"
+
 INPUTS = {
-    "savings": {
+    "current_savings": {
         "new_house": 6720.0,
         "car": 15120.0,
         "current_house": 11760.0,
@@ -10,7 +12,11 @@ INPUTS = {
     },
     "income": {
         "salary": {"oscar": 4900, "rose": 2542},
-        "investments": {"oscar": 0, "rose": 0},
+        "freelance": {"oscar": 0, "rose": 0},
+    },
+    "savings_interest": {
+        "ulster_bank": 150,
+        "hampshire_trust_bank": 200,
     },
     "bills": {
         "mortgage": {"oscar": 1973.17, "rose": 0},
@@ -25,10 +31,12 @@ INPUTS = {
         "shopping": {"oscar": 130.68, "rose": 318.36},
         "freya": {"oscar": 71.48, "rose": 113.61},
         "cleaning": {"oscar": 81.40, "rose": 0},
+        "fertility": {"oscar": 0, "rose": 0},
     },
     "investments": {
-        "comcast_shares": {"oscar": 250, "rose": 0},
+        "comcast_shares": {"oscar": 0, "rose": 0},
     },
+    "personal_spending": {"oscar": 0, "rose": 0},
 }
 
 PARAMS = {
@@ -42,5 +50,10 @@ PARAMS = {
         "family": 0.05,
     },
     "split": "proportional_to_income",
-    "pocket_money": {"oscar": 500, "rose": 500},
+    "savings_interest_rates": {
+        "ulster_bank": 0.052,
+        "hampshire_trust_bank": 0.0551,
+    },
+    "easy_access_pots": ["current_house", "wedding", "holidays", "family"],
+    "high_yield_pots": ["new_house", "car", "children"],
 }
