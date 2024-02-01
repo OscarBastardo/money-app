@@ -38,7 +38,11 @@ def get_investments(inputs):
 
 
 def get_spending_total(inputs):
-    return sum(get_bills(inputs)) + sum(get_expenses(inputs))
+    return (
+        sum(get_bills(inputs))
+        + sum(get_expenses(inputs))
+        + sum(get_investments(inputs))
+    )
 
 
 def get_spending_share(inputs, params):
