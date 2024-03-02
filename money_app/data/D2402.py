@@ -1,4 +1,4 @@
-DATE = "2024-01-31"
+DATE = "2024-02-29"
 
 INPUTS = {
     "current_savings": {
@@ -14,7 +14,7 @@ INPUTS = {
         "salary": {"oscar": 4773.42, "rose": 2585.80},
     },
     "savings_interest": {
-        "ulster_bank": 10.68,
+        "ulster_bank": 0,
         "hampshire_trust_bank": 0,
     },
     "bills": {
@@ -27,16 +27,18 @@ INPUTS = {
         "home_insurance": {"oscar": 0, "rose": 22.37},
     },
     "expenses": {
-        "shopping": {"oscar": 95.09, "rose": 260.03},
-        "freya": {"oscar": 97.19, "rose": 9.15},
-        "cleaning": {"oscar": 101.4, "rose": 0},
-        "fertility": {"oscar": 0, "rose": 442.0},
-        "family": {"oscar": 302.99, "rose": 0},
+        "shopping": {"oscar": 182.83, "rose": 280.0},
+        "freya": {"oscar": 46.64, "rose": 207.76},
+        "cleaning": {"oscar": 152.1, "rose": 0},
+        "fertility": {"oscar": 512.80, "rose": 238.0},
+        "family": {"oscar": 0, "rose": 0},
+        "locksmith": {"oscar": 150, "rose": 0},
+        "meals": {"oscar": 261.82, "rose": 37.83},
     },
     "investments": {
         "comcast_shares": {"oscar": 250, "rose": 0},
     },
-    "personal_spending": {"oscar": 1944.08, "rose": 480.67},
+    # "personal_spending": {"oscar": 1944.08, "rose": 480.67},
 }
 
 PARAMS = {
